@@ -7,30 +7,31 @@ purple='\033[35;1m'
 cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'                                           
-yellow='\033[33;1m'
+gold='\033[33;1m'
 sleep 1
-toilet -f big -F gay "ISHSPAM" | lolcat
+toilet -f big -F gay "ISH" | lolcat
 echo "" 
 echo "==============================================="     
 echo "\033[32;1m=Author : ./Droid_X_ISH             =" 
 echo "\033[35;1m=Team   : Indonesian Security Hunter="
-echo "\033[33;1m=Kontak gua:  089606402413          ="
+echo "\033[33;1m=Kontak :  089606402413             ="
 echo "\033[31;1m=Date   :05-06-2018                 ="
 echo "==============================================="
 sleep 1
 echo ""
 echo "\033[32;1mSilahkan dipilih:"
 echo "\033[36;1m"
-echo "====================================="
+echo         "============================="
 echo $green  "=1.> Spam Sms Tokopedia     ="
 echo $purple "=2.> Spam Sms Telkomnyet    ="
 echo $cyan   "=3.> Spam Sms Matahari Mall ="
 echo $red    "=4.> Spam Sms HooqTV        ="
 echo $white  "=5.> Spam Sms KFC           ="
 echo $green  "=6.> Spam Sms PHD           ="
-echo "====================================="
+echo $gold   "=7.> Install Lazymux        ="
+echo         "============================="
 echo "\033[32;1m"
-read -p "[==>ISHSPAM:~#" bro
+read -p "[==>ISH:~#" bro
 
 if [ $bro = 1 ] || [ $bro = 1 ]
 then
@@ -78,6 +79,17 @@ clear
 toilet -f mono12 -F gay "Tn.Chaplin"
 cd module
 php phd.php
+fi
+
+if [ $bro = 30 ] || [ $bro = 30 ]
+then
+clear
+figlet "ISH" | lolcat
+apt update && upgrade
+apt install python2 
+apt install git
+cd module
+python2 lazymux.py
 fi
 
 if [ $bro = 0 ] || [ $bro = 00 ]
