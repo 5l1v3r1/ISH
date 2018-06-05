@@ -81,7 +81,7 @@ cd module
 php phd.php
 fi
 
-if [ $bro = 30 ] || [ $bro = 30 ]
+if [ $bro = 7 ] || [ $bro = 7 ]
 then
 clear
 figlet "ISH" | lolcat
